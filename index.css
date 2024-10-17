@@ -1,0 +1,330 @@
+.continer{
+    width: 96%;
+    /* padding: 2%; */
+    margin: auto;
+}
+
+html , body {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+body{background: #000000};
+
+  /* Start of nav */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+}
+
+nav .logo {
+
+    height: 110px;
+}
+nav .logo img{
+    height: 120PX;
+    margin-left: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1171px;
+    background-color: #9D79FF;
+    height: 100PX;
+    border-radius: 30PX;
+}
+
+nav ul li{
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,204,236,1) 100%);
+margin: 30px;
+padding: 20px 65px;
+font-size: 30px;
+color: #09599B;
+border-radius: 20px;
+font-family: "Itim", cursive;
+font-weight: 400; 
+font-style: normal;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #09599B;
+
+}
+
+body .icone img{
+    border-radius: 30px;
+    height: 100%;
+    width: auto;
+    margin-left: 150px;
+    margin-top: 30px;
+
+}
+
+.c1{
+    background: linear-gradient(to top, #7CCCEC, #ffffff);
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: -21px;
+    border-radius: 14px;
+    
+}
+
+.mainbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.color-text{
+    color: #430DD6;
+    font-size: 80px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.c2{
+    background: linear-gradient(to top, #7CCCEC, #ffffff);
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: -21px;
+    border-radius: 14px;
+    margin-top: 30px;
+}
+.about-title{
+    background-color: #9D79FF;
+    border-radius: 40px;
+    height: 120px;
+    width: 1150px;
+    margin-left: 200px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    
+}
+.about-title h1{
+    padding-top:26px ;
+}
+
+ 
+ .features img {
+    height: 380px;
+    width: 655px;
+    margin-left: 150px;
+    margin-top: 30px;
+
+ }
+ .c3{
+    
+    background: linear-gradient(to top, #7CCCEC, #ffffff);
+    padding: 20px;
+    
+    /* text-align: center; */
+    color: #000000;
+    /* margin-top: -21px; */
+    border-radius: 14px;
+    margin-top: 30px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.firstWord {
+    color: #0080FF;
+    font-size: 31px;
+    width: fit-content;
+}
+
+.infosAbout {
+    display: flex;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    display: flex;
+    margin-left: 100px;
+    
+}
+.cadrageInfos {
+    height: 386px;
+    line-height: 0.6;
+    letter-spacing: 2px;
+}
+
+.c4{
+    background: linear-gradient(to top, #7CCCEC, #ffffff);
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: -21px;
+    border-radius: 14px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c5{
+    background: linear-gradient(to top, #7CCCEC, #ffffff);
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: -21px;
+    border-radius: 14px;
+    margin-top: 30px;
+}
+
+/* .footerText {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #A100CA;
+
+} */
+
+.footerTitle {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #A100CA;
+    /* margin-right: -60%;
+    margin-left: 20%; */
+    text-align: left;
+    font-weight: bold;
+    border-right: black solid 1px;
+
+}
+
+.c5{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.c5 div{
+    width: 50%;
+}
+
+.footerTitle2 {
+    /* margin-left: 46%; */
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #A100CA;
+    font-size: 17px;
+    padding-left: 80px;
+
+}
+
+.copyrith {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #A100CA;
+}
+
+.iphones {
+    border-radius: 30px;
+    height: 544px;
+    width: 1276px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.color {
+    color: #A100CA;
+}
+
+.c4 div h1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1000px;
+    margin-left: 180px;
+    font-size: 26px;
+    color: #430DD6;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.c4 .priceListe ul {
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: 150px;
+    background-color: #8AD1EE;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.c4 .priceListe ul li {
+    font-size: 24px;
+   
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.c3 .halfC3 {
+    width: 100%;
+    height: 400px;
+    /* background-color: #09599B; */
+    display: flex;
+} 
+.c3 .halfC3 .left{
+    width: 60%;
+    height: fit-content;
+    /* background-color: #7CCCEC; */
+}
+
+.c3 .halfC3 .left .imgCont img{
+   
+    width: 100%;
+    margin-left: -90px;
+    margin-top: -130px;
+   
+}
+
+.imgCont{
+    width: 911px;
+    
+    
+    /* background-color: #ffffff; */
+    
+
+
+}
+
+.c3 .halfC3 .right{
+    width: 40%;
+    height: 100%;
+    background-color: #49595f;
+}
+
+
+
